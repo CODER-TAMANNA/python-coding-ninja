@@ -1,0 +1,11 @@
+Find X raised to power N
+You are given two integers: X and N. You have to calculate X raised to power N and print it.
+Input format:
+The first line of input contains an integer X (1 <= X <= 100)
+The second line of input contains an integer N (1 <= N <= 10) 
+
+ANSWER
+x=int(input())
+n=int(input())
+b=pow(x,n)
+print(b)
